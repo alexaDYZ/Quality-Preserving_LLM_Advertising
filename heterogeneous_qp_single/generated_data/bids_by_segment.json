@@ -1,0 +1,57 @@
+{
+  "adv_00": {
+    "name": "BudgetJet",
+    "budget": 3.0,
+    "luxury": 0.5
+  },
+  "adv_01": {
+    "name": "AeroLux",
+    "budget": 0.5,
+    "luxury": 3.0
+  },
+  "adv_02": {
+    "name": "CozyStay",
+    "budget": 2.5,
+    "luxury": 0.5
+  },
+  "adv_03": {
+    "name": "GrandCarlton",
+    "budget": 0.0,
+    "luxury": 3.0
+  },
+  "adv_04": {
+    "name": "DealMart Travel",
+    "budget": 2.0,
+    "luxury": 1.0
+  },
+  "adv_05": {
+    "name": "BloomHouse",
+    "budget": 0.5,
+    "luxury": 2.5
+  },
+  "adv_06": {
+    "name": "FastFit",
+    "budget": 1.5,
+    "luxury": 0.0
+  },
+  "adv_07": {
+    "name": "SunGuard Essentials",
+    "budget": 1.2,
+    "luxury": 1.2
+  },
+  "adv_08": {
+    "name": "WanderBite",
+    "budget": 1.5,
+    "luxury": 1.5
+  },
+  "adv_09": {
+    "name": "MusicStream",
+    "budget": 0.2,
+    "luxury": 0.2
+  },
+  "adv_10": {
+    "name": "BrainChips",
+    "budget": 0.1,
+    "luxury": 0.1
+  }
+}

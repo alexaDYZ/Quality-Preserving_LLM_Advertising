@@ -1,0 +1,39 @@
+{
+  "segment_counts": {
+    "luxury": 50,
+    "budget": 50
+  },
+  "generation_archetype_counts": {
+    "luxury": 50,
+    "budget": 50
+  },
+  "duplicate_memory_count": 0,
+  "target_mean_s_iu": {
+    "budget__both": 0.674176,
+    "budget__budget": 0.867289,
+    "budget__luxury": 0.205724,
+    "budget__neither": 0.109802,
+    "luxury__both": 0.699014,
+    "luxury__budget": 0.189574,
+    "luxury__luxury": 0.893699,
+    "luxury__neither": 0.115291
+  },
+  "within_segment_user_mean_s_iu_std": {
+    "budget": 0.020861,
+    "luxury": 0.019749
+  },
+  "checks": {
+    "has_100_users": true,
+    "memories_not_duplicates": true,
+    "has_budget_and_luxury_segments": true,
+    "budget_scores_budget_ads_higher_than_luxury_ads": true,
+    "luxury_scores_luxury_ads_higher_than_budget_ads": true,
+    "irrelevant_ads_low_on_average": true,
+    "budget_users_have_score_variation": true,
+    "luxury_users_have_score_variation": true
+  },
+  "embedding_backend": "sentence_transformers",
+  "embedding_model": "multi-qa-MiniLM-L6-cos-v1",
+  "seed": 211,
+  "n_users": 100
+}

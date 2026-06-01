@@ -1,0 +1,112 @@
+[
+  {
+    "advertiser_id": "adv_00",
+    "name": "BudgetJet",
+    "category": "airline",
+    "target_audience": "budget",
+    "price_level": "low",
+    "ad_text": "BudgetJet offers no-frills flights to Hawaii with low base fares, flexible carry-on options, and fare alerts for travelers who want to spend more on beaches and food than on airfare.",
+    "relevance_notes": "Budget airline for price-sensitive Hawaii travelers.",
+    "profile_text": "BudgetJet. Category: airline. Target: budget. Price level: low. BudgetJet offers no-frills flights to Hawaii with low base fares, flexible carry-on options, and fare alerts for travelers who want to spend more on beaches and food than on airfare."
+  },
+  {
+    "advertiser_id": "adv_01",
+    "name": "AeroLux",
+    "category": "airline",
+    "target_audience": "luxury",
+    "price_level": "high",
+    "ad_text": "AeroLux provides lie-flat premium cabins, private lounge access, concierge itinerary support, and seamless flights for travelers who want Hawaii to feel refined from departure to arrival.",
+    "relevance_notes": "Premium airline for affluent travelers.",
+    "profile_text": "AeroLux. Category: airline. Target: luxury. Price level: high. AeroLux provides lie-flat premium cabins, private lounge access, concierge itinerary support, and seamless flights for travelers who want Hawaii to feel refined from departure to arrival."
+  },
+  {
+    "advertiser_id": "adv_02",
+    "name": "CozyStay",
+    "category": "lodging",
+    "target_audience": "budget",
+    "price_level": "low",
+    "ad_text": "CozyStay helps Hawaii visitors find clean hostels, simple guesthouses, and budget vacation rentals near beaches, transit, and local food spots.",
+    "relevance_notes": "Affordable lodging for budget travelers.",
+    "profile_text": "CozyStay. Category: lodging. Target: budget. Price level: low. CozyStay helps Hawaii visitors find clean hostels, simple guesthouses, and budget vacation rentals near beaches, transit, and local food spots."
+  },
+  {
+    "advertiser_id": "adv_03",
+    "name": "GrandCarlton",
+    "category": "lodging",
+    "target_audience": "luxury",
+    "price_level": "high",
+    "ad_text": "GrandCarlton curates oceanfront suites, spa retreats, private cabanas, and concierge-led Hawaii experiences for travelers seeking a polished five-star stay.",
+    "relevance_notes": "Luxury lodging and resort experience.",
+    "profile_text": "GrandCarlton. Category: lodging. Target: luxury. Price level: high. GrandCarlton curates oceanfront suites, spa retreats, private cabanas, and concierge-led Hawaii experiences for travelers seeking a polished five-star stay."
+  },
+  {
+    "advertiser_id": "adv_04",
+    "name": "DealMart Travel",
+    "category": "marketplace",
+    "target_audience": "budget",
+    "price_level": "low",
+    "ad_text": "DealMart Travel bundles discounted flights, sunscreen, luggage, snacks, and local activity coupons so practical travelers can plan Hawaii without overstretching their budget.",
+    "relevance_notes": "Budget marketplace for travel essentials.",
+    "profile_text": "DealMart Travel. Category: marketplace. Target: budget. Price level: low. DealMart Travel bundles discounted flights, sunscreen, luggage, snacks, and local activity coupons so practical travelers can plan Hawaii without overstretching their budget."
+  },
+  {
+    "advertiser_id": "adv_05",
+    "name": "BloomHouse",
+    "category": "clothing",
+    "target_audience": "luxury",
+    "price_level": "high",
+    "ad_text": "BloomHouse offers designer resort wear, silk dresses, tailored linen, and personal styling for travelers who want an elegant Hawaii wardrobe.",
+    "relevance_notes": "Luxury clothing and styling.",
+    "profile_text": "BloomHouse. Category: clothing. Target: luxury. Price level: high. BloomHouse offers designer resort wear, silk dresses, tailored linen, and personal styling for travelers who want an elegant Hawaii wardrobe."
+  },
+  {
+    "advertiser_id": "adv_06",
+    "name": "FastFit",
+    "category": "clothing",
+    "target_audience": "budget",
+    "price_level": "low",
+    "ad_text": "FastFit sells affordable swimsuits, sandals, sundresses, and wrinkle-free travel outfits for Hawaii visitors comparing practical looks under a tight budget.",
+    "relevance_notes": "Low-cost clothing for price-sensitive users.",
+    "profile_text": "FastFit. Category: clothing. Target: budget. Price level: low. FastFit sells affordable swimsuits, sandals, sundresses, and wrinkle-free travel outfits for Hawaii visitors comparing practical looks under a tight budget."
+  },
+  {
+    "advertiser_id": "adv_07",
+    "name": "SunGuard Essentials",
+    "category": "travel_goods",
+    "target_audience": "both",
+    "price_level": "medium",
+    "ad_text": "SunGuard Essentials makes reef-safe sunscreen, compact hats, beach bags, and after-sun care kits for any Hawaii itinerary.",
+    "relevance_notes": "Broadly relevant Hawaii travel goods.",
+    "profile_text": "SunGuard Essentials. Category: travel_goods. Target: both. Price level: medium. SunGuard Essentials makes reef-safe sunscreen, compact hats, beach bags, and after-sun care kits for any Hawaii itinerary."
+  },
+  {
+    "advertiser_id": "adv_08",
+    "name": "WanderBite",
+    "category": "food_local_discovery",
+    "target_audience": "both",
+    "price_level": "medium",
+    "ad_text": "WanderBite recommends local poke shops, farmers markets, tasting menus, and hidden neighborhood restaurants for travelers exploring Hawaii through food.",
+    "relevance_notes": "Food discovery relevant to both groups.",
+    "profile_text": "WanderBite. Category: food_local_discovery. Target: both. Price level: medium. WanderBite recommends local poke shops, farmers markets, tasting menus, and hidden neighborhood restaurants for travelers exploring Hawaii through food."
+  },
+  {
+    "advertiser_id": "adv_09",
+    "name": "MusicStream",
+    "category": "irrelevant",
+    "target_audience": "neither",
+    "price_level": "medium",
+    "ad_text": "MusicStream gives listeners playlists, offline listening, and personalized music recommendations across devices.",
+    "relevance_notes": "Control advertiser with weak relevance to Hawaii travel.",
+    "profile_text": "MusicStream. Category: irrelevant. Target: neither. Price level: medium. MusicStream gives listeners playlists, offline listening, and personalized music recommendations across devices."
+  },
+  {
+    "advertiser_id": "adv_10",
+    "name": "BrainChips",
+    "category": "irrelevant",
+    "target_audience": "neither",
+    "price_level": "medium",
+    "ad_text": "BrainChips develops processors for laptops, servers, and cloud workloads with an emphasis on reliability and performance.",
+    "relevance_notes": "Control advertiser unrelated to travel planning.",
+    "profile_text": "BrainChips. Category: irrelevant. Target: neither. Price level: medium. BrainChips develops processors for laptops, servers, and cloud workloads with an emphasis on reliability and performance."
+  }
+]
