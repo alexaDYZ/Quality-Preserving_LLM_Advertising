@@ -1,0 +1,104 @@
+{
+  "config": {
+    "rho_q": 1.0,
+    "rho_s": 1.0,
+    "mu": 0.1,
+    "lambda_tilde": 1.0,
+    "click_scale": 1.0,
+    "ctr_assumption": "ctr_iu = click_scale * pi_iu; default click_scale=1.",
+    "reserve_policy": "Effective reserve is max(0, theoretical reserve).",
+    "organic_sampling": "One saved no-ad output is sampled per user response round."
+  },
+  "n_responses": 100,
+  "n_rounds_total": 300,
+  "expected_revenue": 7.8454359996527305,
+  "expected_ads": 248.44333092505644,
+  "sampled_ads": 245,
+  "revenue_per_ad": 0.03157837230100302,
+  "expected_ads_per_response": 2.4844333092505644,
+  "sampled_ads_per_response": 2.45,
+  "social_welfare_per_response": 1.4905407093877536,
+  "gross_social_welfare_per_response": 1.5975951201335044,
+  "mean_relevance_per_round": 0.6074608946371884,
+  "mean_kl_per_round": 0.0356848035819169,
+  "mean_expected_revenue_per_round": 0.026151453332175768,
+  "by_segment": {
+    "budget": {
+      "n_responses": 50,
+      "n_rounds": 150,
+      "expected_revenue": 3.1128709501689515,
+      "expected_ads": 120.38827566174676,
+      "sampled_ads": 119,
+      "revenue_per_ad": 0.025856927786848123,
+      "expected_ads_per_response": 2.4077655132349354,
+      "sampled_ads_per_response": 2.38,
+      "social_welfare_per_response": 1.2970021872134945,
+      "gross_social_welfare_per_response": 1.389462234220151,
+      "mean_relevance_per_round": 0.619283060274428,
+      "mean_kl_per_round": 0.03082001566888548,
+      "mean_expected_revenue_per_round": 0.020752473001126343
+    },
+    "luxury": {
+      "n_responses": 50,
+      "n_rounds": 150,
+      "expected_revenue": 4.732565049483779,
+      "expected_ads": 128.05505526330967,
+      "sampled_ads": 126,
+      "revenue_per_ad": 0.0369572684167179,
+      "expected_ads_per_response": 2.5611011052661934,
+      "sampled_ads_per_response": 2.52,
+      "social_welfare_per_response": 1.6840792315620132,
+      "gross_social_welfare_per_response": 1.805728006046858,
+      "mean_relevance_per_round": 0.595638728999949,
+      "mean_kl_per_round": 0.04054959149494832,
+      "mean_expected_revenue_per_round": 0.03155043366322519
+    }
+  },
+  "by_advertiser": {
+    "SunWing Airlines": {
+      "advertiser_id": "adv_00",
+      "expected_revenue": 3.4691268212774937,
+      "expected_ads": 58.802660908588,
+      "revenue_per_ad": 0.05899608568174226,
+      "mean_allocation_per_round": 0.19600886969529335
+    },
+    "TropicStay": {
+      "advertiser_id": "adv_01",
+      "expected_revenue": 2.2038274723081437,
+      "expected_ads": 56.663819534843185,
+      "revenue_per_ad": 0.03889302716264982,
+      "mean_allocation_per_round": 0.1888793984494773
+    },
+    "WanderBite": {
+      "advertiser_id": "adv_02",
+      "expected_revenue": 0.8189560155417605,
+      "expected_ads": 51.61410397966389,
+      "revenue_per_ad": 0.01586690366385962,
+      "mean_allocation_per_round": 0.1720470132655463
+    },
+    "NovaSkin": {
+      "advertiser_id": "adv_03",
+      "expected_revenue": 0.9434169024954581,
+      "expected_ads": 44.07685776322115,
+      "revenue_per_ad": 0.021403905595164027,
+      "mean_allocation_per_round": 0.14692285921073717
+    },
+    "GridPower Bank": {
+      "advertiser_id": "adv_04",
+      "expected_revenue": 0.41010878802987466,
+      "expected_ads": 37.28588873874022,
+      "revenue_per_ad": 0.010999034806531771,
+      "mean_allocation_per_round": 0.12428629579580074
+    }
+  },
+  "data_dir": "generated_data/scenario_1",
+  "organic_outputs_path": "/Users/alexandradong/Library/Mobile Documents/com~apple~CloudDocs/Desktop/UCLA/Projects/Quality-Preserving_LLM_Advertising/No-Ad Response/generated_no_ad_outputs_scenario_1.json",
+  "query": "\"What can I visit on a trip to Hawaii?\"",
+  "replacement_mode": "without_replacement",
+  "n_rounds_per_response": 3,
+  "seed": 211,
+  "embedding_backend_requested": "data",
+  "embedding_backend_used": "hashing",
+  "embedding_model": "multi-qa-MiniLM-L6-cos-v1",
+  "ad_relevance_source": "han_dai_q_i_v1 when available; embedding cosine fallback otherwise"
+}

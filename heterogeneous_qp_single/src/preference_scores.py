@@ -91,6 +91,12 @@ def summarize_scores(users: list[dict], advertisers: list[dict], score_payload: 
         f"{segment}__{target}": round(_mean(values), 6)
         for (segment, target), values in sorted(by_segment_target.items())
     }
+    observed_targets = {
+        advertiser["target_audience"]
+        for advertiser in advertisers
+    }
+    has_budget_luxury_targets = {"budget", "luxury"}.issubset(observed_targets)
+    has_neither_targets = "neither" in observed_targets
 
     within_segment_variation = {}
     for segment in ["budget", "luxury"]:
@@ -112,15 +118,21 @@ def summarize_scores(users: list[dict], advertisers: list[dict], score_payload: 
             "memories_not_duplicates": duplicate_memory_count == 0,
             "has_budget_and_luxury_segments": set(segments) == {"budget", "luxury"},
             "budget_scores_budget_ads_higher_than_luxury_ads": (
-                target_means.get("budget__budget", 0.0)
+                None
+                if not has_budget_luxury_targets
+                else target_means.get("budget__budget", 0.0)
                 > target_means.get("budget__luxury", 1.0)
             ),
             "luxury_scores_luxury_ads_higher_than_budget_ads": (
-                target_means.get("luxury__luxury", 0.0)
+                None
+                if not has_budget_luxury_targets
+                else target_means.get("luxury__luxury", 0.0)
                 > target_means.get("luxury__budget", 1.0)
             ),
             "irrelevant_ads_low_on_average": (
-                _mean(target_means[k] for k in target_means if k.endswith("__neither"))
+                None
+                if not has_neither_targets
+                else _mean(target_means[k] for k in target_means if k.endswith("__neither"))
                 < _mean(target_means.values())
             ),
             "budget_users_have_score_variation": within_segment_variation.get("budget", 0.0) > 0,
@@ -168,4 +180,3 @@ def _std(values) -> float:
         return 0.0
     mean = _mean(vals)
     return (sum((v - mean) ** 2 for v in vals) / (len(vals) - 1)) ** 0.5
-

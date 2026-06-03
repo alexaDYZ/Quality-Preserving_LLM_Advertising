@@ -1,0 +1,7 @@
+| Advertiser | Target | Bid (budget) | Bid (luxury) | q_i^(1) |
+| --- | --- | --- | --- | --- |
+| SunWing Airlines | luxury | 2.500 | 3.500 | 0.620 |
+| TropicStay | budget | 2.500 | 3.500 | 0.670 |
+| WanderBite | budget | 1.500 | 2.500 | 0.610 |
+| NovaSkin | luxury | 1.500 | 2.500 | 0.490 |
+| GridPower Bank | luxury | 0.500 | 1.500 | 0.590 |

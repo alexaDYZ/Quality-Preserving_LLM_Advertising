@@ -1,0 +1,8 @@
+| Source | Sampled Count | Sampled Share | Expected Allocation | Allocation Share | Expected Revenue | Revenue per Expected Ad | Mean Nonzero Payment |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| organic | 41 | 0.137 | 42.455 | 0.142 | 0.000 | 0.000 | 0.000 |
+| SunWing Airlines | 61 | 0.203 | 64.600 | 0.215 | 2.633 | 0.041 | 0.164 |
+| TropicStay | 74 | 0.247 | 65.966 | 0.220 | 1.884 | 0.029 | 0.118 |
+| WanderBite | 43 | 0.143 | 52.958 | 0.177 | 0.509 | 0.010 | 0.055 |
+| NovaSkin | 50 | 0.167 | 42.222 | 0.141 | 0.496 | 0.012 | 0.072 |
+| GridPower Bank | 31 | 0.103 | 31.800 | 0.106 | 0.196 | 0.006 | 0.034 |

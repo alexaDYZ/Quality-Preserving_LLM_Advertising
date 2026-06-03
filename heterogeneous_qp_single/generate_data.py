@@ -26,10 +26,14 @@ def build_dataset(
     seed: int = 211,
     embedding_backend: str = "auto",
     model_name: str = "multi-qa-MiniLM-L6-cos-v1",
+    advertiser_scenario: str = "scenario_1",
 ) -> dict:
     raw_users = generate_user_memories(n_users=n_users, seed=seed)
-    advertisers = get_advertisers()
-    bids_by_segment = get_bids_by_segment(advertisers)
+    advertisers = get_advertisers(scenario=advertiser_scenario)
+    bids_by_segment = get_bids_by_segment(
+        advertisers,
+        scenario=advertiser_scenario,
+    )
 
     embedder = Embedder(model_name=model_name, backend=embedding_backend)
 
@@ -63,6 +67,8 @@ def build_dataset(
     validation_summary["embedding_model"] = embedder.model_name
     validation_summary["seed"] = seed
     validation_summary["n_users"] = n_users
+    validation_summary["advertiser_scenario"] = advertiser_scenario
+    validation_summary["n_advertisers"] = len(advertisers)
 
     write_json(output_dir / "users_raw_memories.json", raw_users)
     write_json(output_dir / "users_classified.json", classified_users)
@@ -90,6 +96,16 @@ def parse_args() -> argparse.Namespace:
         default="auto",
         help="Use sentence_transformers when available, otherwise deterministic hashing.",
     )
+    parser.add_argument(
+        "--advertiser-scenario",
+        choices=["scenario_1", "current"],
+        default="scenario_1",
+        help=(
+            "scenario_1 reuses the five Han-Dai/QP-single Hawaii advertisers "
+            "with original_bid +/- 0.5 segment bids; current keeps the previous "
+            "11-ad heterogeneous design."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -100,10 +116,10 @@ def main() -> None:
         n_users=args.n_users,
         seed=args.seed,
         embedding_backend=args.embedding_backend,
+        advertiser_scenario=args.advertiser_scenario,
     )
     print(json.dumps(summary, indent=2))
 
 
 if __name__ == "__main__":
     main()
-

@@ -1,0 +1,5 @@
+{
+  "query": "\"What can I visit on a trip to Hawaii?\"",
+  "q0_policy_v1": "shared organic content; not user-personalized",
+  "notes": "For comparability with Dai/Han QP single, v1 keeps q0 tied to the query/current-generation context rather than to each user memory. If personalized organic content is studied later, regenerate and save organic_doc and q0 per user or per segment."
+}

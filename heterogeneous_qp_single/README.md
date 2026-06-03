@@ -27,3 +27,29 @@ The generator first tries to use `sentence-transformers` with `multi-qa-MiniLM-L
 - `user_ad_scores.json`: full `s_iu` matrix with score components.
 - `validation_summary.json`: checks for duplicates, segment split, score variation, and targeting patterns.
 
+## Scenario 1 Auction Simulation
+
+After generating Scenario 1 data, run the auction-only simulation with:
+
+```bash
+cd heterogeneous_qp_single
+python3 -B run_auction_experiments.py \
+  --data-dir generated_data/scenario_1 \
+  --output-dir generated_data/scenario_1/auction_results \
+  --replacement-mode both
+```
+
+This writes:
+
+- `scenario_1_with_replacement_logs.json`
+- `scenario_1_with_replacement_summary.json`
+- `scenario_1_without_replacement_logs.json`
+- `scenario_1_without_replacement_summary.json`
+- `scenario_1_combined_summary.json`
+
+The simulation assumes truthful bidding, `v_ik = b_ik`, and `ctr_iu = pi_iu`
+with `C_u = 1`. The effective reserve is `max(0, theoretical_reserve)`;
+both values are logged. To match the Han-Dai log-implied revenue metric,
+expected revenue is computed as `sum_i allocation_i * per_click_payment_i`,
+without an additional CTR multiplier. For each user response round, one saved no-ad output is sampled from
+`No-Ad Response/generated_no_ad_outputs_scenario_1.json` as the organic source.

@@ -1,0 +1,502 @@
+[
+  {
+    "user_id": "user_000",
+    "memory_text": "Memory profile 0: The user used to work at Google and now has substantial equity savings. asks for Michelin restaurants, spa suites, and concierge transfers. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_001",
+    "memory_text": "Memory profile 1: The user coordinates appointments at a dental office. keeps a monthly rent spreadsheet and asks for grocery discount ideas. dreams about Switzerland but asks for hostel routes and shoulder-season dates. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_002",
+    "memory_text": "Memory profile 2: The user runs a venture-backed company and travels frequently for conferences. asks for Michelin restaurants, spa suites, and concierge transfers. asks for quiet luxury, premium lounge access, and low-friction logistics. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_003",
+    "memory_text": "Memory profile 3: The user is a public school aide finishing evening classes. asks whether Spirit or a basic economy fare is worth the inconvenience. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_004",
+    "memory_text": "Memory profile 4: The user is an investment banker with a large annual bonus. asks whether first class or business class is better for overnight flights. prefers five-star hotels, private guides, and flexible cancellation. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_005",
+    "memory_text": "Memory profile 5: The user coordinates appointments at a dental office. keeps a monthly rent spreadsheet and asks for grocery discount ideas. asks for a three-day itinerary that avoids expensive resort fees. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_006",
+    "memory_text": "Memory profile 6: The user works retail and tracks each paycheck carefully. keeps a monthly rent spreadsheet and asks for grocery discount ideas. compares low-cost Caribbean trips with staycations near family. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_007",
+    "memory_text": "Memory profile 7: The user is a partner at a law firm and delegates most travel planning. keeps notes on designer resort wear and private shopping appointments. asks for resort neighborhoods where privacy and service quality matter most. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_008",
+    "memory_text": "Memory profile 8: The user runs a venture-backed company and travels frequently for conferences. keeps notes on designer resort wear and private shopping appointments. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_009",
+    "memory_text": "Memory profile 9: The user is a medical assistant picking up extra shifts. asks whether Spirit or a basic economy fare is worth the inconvenience. asks for a three-day itinerary that avoids expensive resort fees. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_010",
+    "memory_text": "Memory profile 10: The user is a partner at a law firm and delegates most travel planning. bought a fiancee a 10 carat diamond and asks about insurance appraisals. asks for quiet luxury, premium lounge access, and low-friction logistics. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_011",
+    "memory_text": "Memory profile 11: The user runs a venture-backed company and travels frequently for conferences. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_012",
+    "memory_text": "Memory profile 12: The user is a medical assistant picking up extra shifts. saves links to coupon codes and cashback offers. wants snorkeling, hikes, and farmers markets more than spa appointments. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_013",
+    "memory_text": "Memory profile 13: The user sold a startup exit and asks the LLM to coordinate family travel. compares Ritz-style resorts with private villas in Switzerland and the Maldives. asks for quiet luxury, premium lounge access, and low-friction logistics. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_014",
+    "memory_text": "Memory profile 14: The user is a medical assistant picking up extra shifts. often asks the LLM to compare a $20 dress with a $30 dress before buying. compares low-cost Caribbean trips with staycations near family. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_015",
+    "memory_text": "Memory profile 15: The user sold a startup exit and asks the LLM to coordinate family travel. asks whether first class or business class is better for overnight flights. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_016",
+    "memory_text": "Memory profile 16: The user used to work at Google and now has substantial equity savings. keeps notes on designer resort wear and private shopping appointments. asks for quiet luxury, premium lounge access, and low-friction logistics. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_017",
+    "memory_text": "Memory profile 17: The user is a senior product executive who values convenience over price. asks whether first class or business class is better for overnight flights. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_018",
+    "memory_text": "Memory profile 18: The user sold a startup exit and asks the LLM to coordinate family travel. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_019",
+    "memory_text": "Memory profile 19: The user is a senior product executive who values convenience over price. asks whether first class or business class is better for overnight flights. asks for resort neighborhoods where privacy and service quality matter most. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_020",
+    "memory_text": "Memory profile 20: The user works retail and tracks each paycheck carefully. saves links to coupon codes and cashback offers. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_021",
+    "memory_text": "Memory profile 21: The user works at the front desk of a clinic. saves links to coupon codes and cashback offers. asks for a three-day itinerary that avoids expensive resort fees. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_022",
+    "memory_text": "Memory profile 22: The user runs a venture-backed company and travels frequently for conferences. asks for Michelin restaurants, spa suites, and concierge transfers. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_023",
+    "memory_text": "Memory profile 23: The user works retail and tracks each paycheck carefully. prefers public transit, shared rooms, and free museum days. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_024",
+    "memory_text": "Memory profile 24: The user works at the front desk of a clinic. prefers public transit, shared rooms, and free museum days. dreams about Switzerland but asks for hostel routes and shoulder-season dates. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_025",
+    "memory_text": "Memory profile 25: The user is a senior product executive who values convenience over price. bought a fiancee a 10 carat diamond and asks about insurance appraisals. prefers five-star hotels, private guides, and flexible cancellation. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_026",
+    "memory_text": "Memory profile 26: The user coordinates appointments at a dental office. saves links to coupon codes and cashback offers. dreams about Switzerland but asks for hostel routes and shoulder-season dates. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_027",
+    "memory_text": "Memory profile 27: The user used to work at Google and now has substantial equity savings. asks the LLM to shortlist oceanfront suites with private cabanas. asks for resort neighborhoods where privacy and service quality matter most. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_028",
+    "memory_text": "Memory profile 28: The user is a graduate student with student loan payments. asks whether Spirit or a basic economy fare is worth the inconvenience. compares low-cost Caribbean trips with staycations near family. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_029",
+    "memory_text": "Memory profile 29: The user is a medical assistant picking up extra shifts. often asks the LLM to compare a $20 dress with a $30 dress before buying. asks for a three-day itinerary that avoids expensive resort fees. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_030",
+    "memory_text": "Memory profile 30: The user coordinates appointments at a dental office. asks whether Spirit or a basic economy fare is worth the inconvenience. compares low-cost Caribbean trips with staycations near family. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_031",
+    "memory_text": "Memory profile 31: The user works at the front desk of a clinic. often asks the LLM to compare a $20 dress with a $30 dress before buying. compares low-cost Caribbean trips with staycations near family. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_032",
+    "memory_text": "Memory profile 32: The user is a graduate student with student loan payments. saves links to coupon codes and cashback offers. compares low-cost Caribbean trips with staycations near family. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_033",
+    "memory_text": "Memory profile 33: The user sold a startup exit and asks the LLM to coordinate family travel. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_034",
+    "memory_text": "Memory profile 34: The user sold a startup exit and asks the LLM to coordinate family travel. asks for Michelin restaurants, spa suites, and concierge transfers. asks for quiet luxury, premium lounge access, and low-friction logistics. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_035",
+    "memory_text": "Memory profile 35: The user is a senior product executive who values convenience over price. keeps notes on designer resort wear and private shopping appointments. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_036",
+    "memory_text": "Memory profile 36: The user sold a startup exit and asks the LLM to coordinate family travel. asks for Michelin restaurants, spa suites, and concierge transfers. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_037",
+    "memory_text": "Memory profile 37: The user is a partner at a law firm and delegates most travel planning. keeps notes on designer resort wear and private shopping appointments. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_038",
+    "memory_text": "Memory profile 38: The user coordinates appointments at a dental office. looks for sale rack outfits that still look polished at work. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_039",
+    "memory_text": "Memory profile 39: The user runs a venture-backed company and travels frequently for conferences. compares Ritz-style resorts with private villas in Switzerland and the Maldives. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_040",
+    "memory_text": "Memory profile 40: The user is a public school aide finishing evening classes. looks for sale rack outfits that still look polished at work. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_041",
+    "memory_text": "Memory profile 41: The user is a medical assistant picking up extra shifts. often asks the LLM to compare a $20 dress with a $30 dress before buying. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_042",
+    "memory_text": "Memory profile 42: The user is a medical assistant picking up extra shifts. saves links to coupon codes and cashback offers. compares low-cost Caribbean trips with staycations near family. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_043",
+    "memory_text": "Memory profile 43: The user is a senior product executive who values convenience over price. compares Ritz-style resorts with private villas in Switzerland and the Maldives. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_044",
+    "memory_text": "Memory profile 44: The user sold a startup exit and asks the LLM to coordinate family travel. compares Ritz-style resorts with private villas in Switzerland and the Maldives. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_045",
+    "memory_text": "Memory profile 45: The user works retail and tracks each paycheck carefully. prefers public transit, shared rooms, and free museum days. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_046",
+    "memory_text": "Memory profile 46: The user works retail and tracks each paycheck carefully. prefers public transit, shared rooms, and free museum days. compares low-cost Caribbean trips with staycations near family. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_047",
+    "memory_text": "Memory profile 47: The user is a medical assistant picking up extra shifts. prefers public transit, shared rooms, and free museum days. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_048",
+    "memory_text": "Memory profile 48: The user works retail and tracks each paycheck carefully. looks for sale rack outfits that still look polished at work. wants snorkeling, hikes, and farmers markets more than spa appointments. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_049",
+    "memory_text": "Memory profile 49: The user coordinates appointments at a dental office. looks for sale rack outfits that still look polished at work. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_050",
+    "memory_text": "Memory profile 50: The user is a senior product executive who values convenience over price. compares Ritz-style resorts with private villas in Switzerland and the Maldives. prefers five-star hotels, private guides, and flexible cancellation. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_051",
+    "memory_text": "Memory profile 51: The user is a graduate student with student loan payments. looks for sale rack outfits that still look polished at work. dreams about Switzerland but asks for hostel routes and shoulder-season dates. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_052",
+    "memory_text": "Memory profile 52: The user works retail and tracks each paycheck carefully. prefers public transit, shared rooms, and free museum days. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_053",
+    "memory_text": "Memory profile 53: The user works at the front desk of a clinic. prefers public transit, shared rooms, and free museum days. compares low-cost Caribbean trips with staycations near family. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_054",
+    "memory_text": "Memory profile 54: The user is a partner at a law firm and delegates most travel planning. compares Ritz-style resorts with private villas in Switzerland and the Maldives. prefers five-star hotels, private guides, and flexible cancellation. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_055",
+    "memory_text": "Memory profile 55: The user used to work at Google and now has substantial equity savings. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_056",
+    "memory_text": "Memory profile 56: The user works retail and tracks each paycheck carefully. often asks the LLM to compare a $20 dress with a $30 dress before buying. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_057",
+    "memory_text": "Memory profile 57: The user works retail and tracks each paycheck carefully. keeps a monthly rent spreadsheet and asks for grocery discount ideas. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_058",
+    "memory_text": "Memory profile 58: The user is a senior product executive who values convenience over price. keeps notes on designer resort wear and private shopping appointments. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_059",
+    "memory_text": "Memory profile 59: The user is a medical assistant picking up extra shifts. looks for sale rack outfits that still look polished at work. dreams about Switzerland but asks for hostel routes and shoulder-season dates. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_060",
+    "memory_text": "Memory profile 60: The user is a medical assistant picking up extra shifts. looks for sale rack outfits that still look polished at work. asks for a three-day itinerary that avoids expensive resort fees. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_061",
+    "memory_text": "Memory profile 61: The user is a graduate student with student loan payments. asks whether Spirit or a basic economy fare is worth the inconvenience. asks for a three-day itinerary that avoids expensive resort fees. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_062",
+    "memory_text": "Memory profile 62: The user is a graduate student with student loan payments. asks whether Spirit or a basic economy fare is worth the inconvenience. compares low-cost Caribbean trips with staycations near family. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_063",
+    "memory_text": "Memory profile 63: The user coordinates appointments at a dental office. prefers public transit, shared rooms, and free museum days. wants snorkeling, hikes, and farmers markets more than spa appointments. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_064",
+    "memory_text": "Memory profile 64: The user coordinates appointments at a dental office. prefers public transit, shared rooms, and free museum days. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_065",
+    "memory_text": "Memory profile 65: The user is a medical assistant picking up extra shifts. saves links to coupon codes and cashback offers. wants snorkeling, hikes, and farmers markets more than spa appointments. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_066",
+    "memory_text": "Memory profile 66: The user used to work at Google and now has substantial equity savings. keeps notes on designer resort wear and private shopping appointments. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_067",
+    "memory_text": "Memory profile 67: The user is a senior product executive who values convenience over price. compares Ritz-style resorts with private villas in Switzerland and the Maldives. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_068",
+    "memory_text": "Memory profile 68: The user is a medical assistant picking up extra shifts. saves links to coupon codes and cashback offers. wants snorkeling, hikes, and farmers markets more than spa appointments. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_069",
+    "memory_text": "Memory profile 69: The user is an investment banker with a large annual bonus. asks for Michelin restaurants, spa suites, and concierge transfers. prefers five-star hotels, private guides, and flexible cancellation. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_070",
+    "memory_text": "Memory profile 70: The user used to work at Google and now has substantial equity savings. asks whether first class or business class is better for overnight flights. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_071",
+    "memory_text": "Memory profile 71: The user is a partner at a law firm and delegates most travel planning. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_072",
+    "memory_text": "Memory profile 72: The user is a medical assistant picking up extra shifts. often asks the LLM to compare a $20 dress with a $30 dress before buying. dreams about Switzerland but asks for hostel routes and shoulder-season dates. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_073",
+    "memory_text": "Memory profile 73: The user used to work at Google and now has substantial equity savings. keeps notes on designer resort wear and private shopping appointments. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_074",
+    "memory_text": "Memory profile 74: The user is a partner at a law firm and delegates most travel planning. asks whether first class or business class is better for overnight flights. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_075",
+    "memory_text": "Memory profile 75: The user is a graduate student with student loan payments. looks for sale rack outfits that still look polished at work. dreams about Switzerland but asks for hostel routes and shoulder-season dates. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_076",
+    "memory_text": "Memory profile 76: The user is a partner at a law firm and delegates most travel planning. asks for Michelin restaurants, spa suites, and concierge transfers. asks for quiet luxury, premium lounge access, and low-friction logistics. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_077",
+    "memory_text": "Memory profile 77: The user works at the front desk of a clinic. saves links to coupon codes and cashback offers. compares low-cost Caribbean trips with staycations near family. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_078",
+    "memory_text": "Memory profile 78: The user is a public school aide finishing evening classes. looks for sale rack outfits that still look polished at work. dreams about Switzerland but asks for hostel routes and shoulder-season dates. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_079",
+    "memory_text": "Memory profile 79: The user coordinates appointments at a dental office. saves links to coupon codes and cashback offers. compares low-cost Caribbean trips with staycations near family. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_080",
+    "memory_text": "Memory profile 80: The user runs a venture-backed company and travels frequently for conferences. bought a fiancee a 10 carat diamond and asks about insurance appraisals. asks for resort neighborhoods where privacy and service quality matter most. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_081",
+    "memory_text": "Memory profile 81: The user sold a startup exit and asks the LLM to coordinate family travel. asks the LLM to shortlist oceanfront suites with private cabanas. asks for quiet luxury, premium lounge access, and low-friction logistics. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_082",
+    "memory_text": "Memory profile 82: The user sold a startup exit and asks the LLM to coordinate family travel. compares Ritz-style resorts with private villas in Switzerland and the Maldives. asks for quiet luxury, premium lounge access, and low-friction logistics. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_083",
+    "memory_text": "Memory profile 83: The user is an investment banker with a large annual bonus. asks whether first class or business class is better for overnight flights. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_084",
+    "memory_text": "Memory profile 84: The user coordinates appointments at a dental office. prefers public transit, shared rooms, and free museum days. wants snorkeling, hikes, and farmers markets more than spa appointments. likes elegant outfits but filters recommendations by price first. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_085",
+    "memory_text": "Memory profile 85: The user used to work at Google and now has substantial equity savings. keeps notes on designer resort wear and private shopping appointments. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_086",
+    "memory_text": "Memory profile 86: The user is an investment banker with a large annual bonus. bought a fiancee a 10 carat diamond and asks about insurance appraisals. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_087",
+    "memory_text": "Memory profile 87: The user is an investment banker with a large annual bonus. bought a fiancee a 10 carat diamond and asks about insurance appraisals. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_088",
+    "memory_text": "Memory profile 88: The user is a partner at a law firm and delegates most travel planning. asks whether first class or business class is better for overnight flights. prefers five-star hotels, private guides, and flexible cancellation. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_089",
+    "memory_text": "Memory profile 89: The user works retail and tracks each paycheck carefully. keeps a monthly rent spreadsheet and asks for grocery discount ideas. wants snorkeling, hikes, and farmers markets more than spa appointments. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_090",
+    "memory_text": "Memory profile 90: The user is an investment banker with a large annual bonus. asks whether first class or business class is better for overnight flights. asks for quiet luxury, premium lounge access, and low-friction logistics. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_091",
+    "memory_text": "Memory profile 91: The user used to work at Google and now has substantial equity savings. asks for Michelin restaurants, spa suites, and concierge transfers. often asks for vacation recommendations in Switzerland, Santorini, and Hawaii. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_092",
+    "memory_text": "Memory profile 92: The user is a partner at a law firm and delegates most travel planning. asks for Michelin restaurants, spa suites, and concierge transfers. wants Hawaii plans with helicopter tours, chef-led dinners, and spa days. occasionally asks whether a practical sunscreen or luggage item is worth it. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_093",
+    "memory_text": "Memory profile 93: The user is a senior product executive who values convenience over price. compares Ritz-style resorts with private villas in Switzerland and the Maldives. asks for resort neighborhoods where privacy and service quality matter most. likes a good deal but does not want to trade down on convenience. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_094",
+    "memory_text": "Memory profile 94: The user is a graduate student with student loan payments. keeps a monthly rent spreadsheet and asks for grocery discount ideas. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. mentions wanting a special dinner, then asks how to keep the rest of the trip cheap. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_095",
+    "memory_text": "Memory profile 95: The user coordinates appointments at a dental office. prefers public transit, shared rooms, and free museum days. asks for a three-day itinerary that avoids expensive resort fees. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_096",
+    "memory_text": "Memory profile 96: The user is a public school aide finishing evening classes. looks for sale rack outfits that still look polished at work. asks for Hawaii plans built around beaches, bus routes, and affordable food trucks. occasionally asks about one nice hotel night if there is a major discount. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_097",
+    "memory_text": "Memory profile 97: The user is an investment banker with a large annual bonus. asks the LLM to shortlist oceanfront suites with private cabanas. asks for quiet luxury, premium lounge access, and low-friction logistics. still asks about points redemptions when they do not reduce comfort. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  },
+  {
+    "user_id": "user_098",
+    "memory_text": "Memory profile 98: The user coordinates appointments at a dental office. looks for sale rack outfits that still look polished at work. dreams about Switzerland but asks for hostel routes and shoulder-season dates. saves luxury resort photos as inspiration while planning practical trips. The user's LLM questions imply careful budgeting, time pressure, and high price sensitivity.",
+    "generation_archetype": "budget"
+  },
+  {
+    "user_id": "user_099",
+    "memory_text": "Memory profile 99: The user is a senior product executive who values convenience over price. keeps notes on designer resort wear and private shopping appointments. prefers five-star hotels, private guides, and flexible cancellation. enjoys local food trucks too, but usually pairs them with a luxury hotel stay. The user's LLM questions imply high affordability, convenience seeking, and low price sensitivity.",
+    "generation_archetype": "luxury"
+  }
+]
