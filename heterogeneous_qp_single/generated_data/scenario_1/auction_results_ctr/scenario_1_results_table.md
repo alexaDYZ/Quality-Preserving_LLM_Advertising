@@ -1,0 +1,4 @@
+| Mechanism | Revenue per Ad | Soc. Wel. | Relevance | KL Div. | Num. Ads |
+| --- | --- | --- | --- | --- | --- |
+| Hetero QP w/ repl. | 0.344 | 5.552 | 0.641 | 0.076 | 2.200 |
+| Hetero QP w/o repl. | 0.335 | 4.687 | 0.638 | 0.034 | 1.066 |

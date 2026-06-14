@@ -1,0 +1,6 @@
+| Mechanism | Revenue per Ad | Soc. Wel. | Relevance | KL Div. | KL x||pi | Num. Ads | Ad User Util./Resp. | Ad User Util./Ad | Per-Click ROI | Adv. Surplus/Resp. | Allocated CTR | CTR Lift |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Han-Dai QP w/ repl. | 1.640 | 5.900 | 2.170 | 0.020 | -- | 2.150 | 2.416 | 1.124 | 2.571 | 1.432 | 0.324 | 1.012 |
+| Han-Dai QP w/o repl. | 1.630 | 5.420 | 2.120 | 0.010 | -- | 1.670 | 1.921 | 1.150 | 1.770 | 1.059 | 0.372 | 1.001 |
+| Hetero QP w/ repl. | 1.591 | 5.552 | 0.641 | 0.076 | 0.942 | 2.200 | 3.316 | 1.501 | 0.891 | 0.675 | 0.218 | 1.413 |
+| Hetero QP w/o repl. | 1.583 | 4.687 | 0.638 | 0.034 | 1.161 | 1.066 | 1.511 | 1.467 | 0.904 | 0.323 | 0.212 | 1.367 |

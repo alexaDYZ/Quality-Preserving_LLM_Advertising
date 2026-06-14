@@ -48,8 +48,28 @@ This writes:
 - `scenario_1_combined_summary.json`
 
 The simulation assumes truthful bidding, `v_ik = b_ik`, and `ctr_iu = pi_iu`
-with `C_u = 1`. The effective reserve is `max(0, theoretical_reserve)`;
-both values are logged. To match the Han-Dai log-implied revenue metric,
-expected revenue is computed as `sum_i allocation_i * per_click_payment_i`,
-without an additional CTR multiplier. For each user response round, one saved no-ad output is sampled from
+with `C_u = 1`. The effective reserve is
+`max(platform_reserve, welfare_reserve)`, where the default platform reserve is
+`2 * q0^0.8 / q_i`, matching Han-Dai Scenario 1. Both reserve components are
+logged. By default, `Revenue per Ad` matches the Han-Dai log-implied table
+metric: it sums nonzero payments over sampled rounds with ad insertion and
+divides by the number of sampled ad-insertion rounds. Diagnostic runs can still
+use `--revenue-metric sampled_normalized_pi_payment`,
+`--revenue-metric allocation_payment`, or `--revenue-metric allocation_ctr_payment`.
+For each user response round, one saved no-ad output is sampled from
 `No-Ad Response/generated_no_ad_outputs_scenario_1.json` as the organic source.
+
+Advertiser-facing metrics are reported separately from platform revenue. The
+per-click ROI is `sum x_i * ctr_i * (v_i - p_i) / sum x_i * ctr_i * p_i`, with
+truthful values `v_i = b_i` in Han-Dai and `v_ik = b_ik` in the heterogeneous
+setting. Expected advertiser surplus per response is
+`sum x_i * ctr_i * (v_i - p_i) / n_responses`. Allocated CTR is the
+allocation-weighted click probability, and CTR lift compares it with a random
+active-ad baseline for the same users and rounds.
+
+The ad user-utility metrics report realized advertiser-content utility over
+sampled ad insertions: `sum V_iu / n_responses` and
+`sum V_iu / inserted_ads`. For Han-Dai QP single comparisons, saved Han-Dai
+trials are deterministically shuffle-matched to the same 100 heterogeneous
+users, so differences come from realized ad-user pairs rather than from changing
+the user population.

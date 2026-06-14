@@ -1,0 +1,7 @@
+| Advertiser | Reported Revenue | Sampled Ads | Expected Clicks | Expected Click Spend | Per-Click ROI | Surplus per Response | Allocated CTR | CTR Lift |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SunWing Airlines | 86.809 | 51 | 10.837 | 18.431 | 1.051 | 0.194 | 0.208 | 1.329 |
+| TropicStay | 76.209 | 52 | 11.793 | 17.248 | 0.748 | 0.129 | 0.217 | 1.404 |
+| WanderBite | 0.000 | 0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| NovaSkin | 0.000 | 0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| GridPower Bank | 0.000 | 0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |

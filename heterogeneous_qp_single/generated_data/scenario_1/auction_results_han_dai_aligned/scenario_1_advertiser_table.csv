@@ -1,0 +1,6 @@
+Advertiser,Target,Bid (budget),Bid (luxury),q_i^(1)
+SunWing Airlines,luxury,2.5,3.5,0.62
+TropicStay,budget,2.5,3.5,0.67
+WanderBite,budget,1.5,2.5,0.61
+NovaSkin,luxury,1.5,2.5,0.49
+GridPower Bank,luxury,0.5,1.5,0.59
